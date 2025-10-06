@@ -3,7 +3,6 @@ Ce projet présente le développement complet d'un agent de poker autonome, capa
 
 ![poker_ai_demo](https://github.com/user-attachments/assets/95d1e390-3ab7-428c-a4ed-3eca765b6554)
 
-🎯 Vue d'ensemble
 Ce projet implémente un "cerveau" d'IA sophistiqué capable de jouer au poker Texas Hold'em à un niveau compétitif. Le défi ? Le poker possède environ 10^160 états de jeu possibles - rendant impossible pour toute IA de mémoriser toutes les situations. Notre solution combine l'abstraction intelligente du jeu avec la Minimisation de Regret Contrefactuel Monte Carlo (MCCFR) pour créer un agent de poker puissant et adaptatif.
 🧠 L'Architecture
 Le Problème : L'Information Imparfaite
