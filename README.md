@@ -94,19 +94,6 @@ Pour 1 000 000+ itérations :
 
 ---
 
-### 🎯 Étape 4 : Exploitation Adaptative
-
-Au-delà du jeu d'équilibre de Nash, l'agent peut **exploiter des styles d'adversaires spécifiques** :
-
-| Style Adverse        | Politique de Base (bb/100) | Politique d'Exploitation (bb/100) | Amélioration |
-|----------------------|----------------------------|-----------------------------------|--------------|
-| Tight-Passive        | -52.37                     | +177.60                           | +229.97      |
-| Loose-Passive        | -22.48                     | +331.88                           | +354.36      |
-| Tight-Aggressive     | -25.15                     | +148.82                           | +173.97      |
-| Loose-Aggressive     | +41.00                     | +264.52                           | +223.52      |
-
-Les modèles d'exploitation sont entraînés en ajustant les probabilités d'action de l'adversaire pendant l'auto-confrontation MCCFR pour simuler des styles de jeu spécifiques, puis en apprenant des stratégies de meilleure réponse.
-
 ---
 
 ## 🛠️ Stack Technique
